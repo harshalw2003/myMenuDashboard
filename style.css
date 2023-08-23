@@ -155,8 +155,9 @@ body{
 .dash-top{
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: start; */
+    /* align-items: center; */
+
    
     /* align-items: center; */
     /* border: 2px solid red; */
@@ -205,9 +206,11 @@ body{
 
     
     display: flex;
-    justify-content: center;
+    justify-content: start;
     gap: 20px;
     flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 10px;
 
 
 
@@ -730,7 +733,9 @@ body{
     display: flex;
     flex-direction: column;
     width:95vw;
+    justify-content: center;
     /* border: 2px solid red; */
+    align-items: center;
     
 
    
@@ -745,6 +750,7 @@ body{
     border-top-left-radius: 6px;
     border-bottom-right-radius: 6px;
     height: fit-content;
+    justify-content: center;
     
     
     width: 95%;
@@ -792,7 +798,7 @@ body{
 
 #views{
 
-    width: 45%;
+    width: 46%;
     height: 150px;
     
 
@@ -864,7 +870,7 @@ body{
 
 .preview-cont{
 
-    width: 45%;
+    width: 47%;
     height: 150px;
     
 
@@ -943,7 +949,7 @@ body{
 
 .add-social-cont{
 
-    width: 45%;
+    width: 46%;
     height: 150px;
     
 
@@ -981,7 +987,7 @@ body{
 
 .add-category-cont{
 
-    width: 45%;
+    width: 46%;
     height: 150px;
     border-radius: 10px;
     
